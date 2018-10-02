@@ -1,0 +1,7 @@
+* text eol=lf
+*.js text
+*.html text diff=html
+*.php text
+*.sql text
+*.png binary
+*.jpg binary
