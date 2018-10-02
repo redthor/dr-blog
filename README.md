@@ -5,6 +5,11 @@ A skeleton for a Sculpin based blog.
 
 Powered by [Sculpin](http://sculpin.io). =)
 
+## Heroku
+
+heroku create
+composer require --dev heroku/heroku-buildpack-php
+
 
 Features
 --------

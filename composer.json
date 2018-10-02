@@ -38,5 +38,8 @@
     },
     "autoload": {
         "classmap": ["component-manager.php"]
+    },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "^144.0"
     }
 }
