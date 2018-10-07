@@ -44,7 +44,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <div class="container">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="{{ site.url }}/">{{ site.title }}</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -60,9 +60,9 @@
                 </div>
             </nav>
         </header>
-        <main role="main" class="container">
+        <main role="main" class="container-fluid">
             <div class="row">
-                <div class="col-sm-4 sidebar">
+                <div class="col-md-3 sidebar">
                     <div class="card bg-light sidebar-nav">
                         <div class="card-header">Links</div>
                         <div class="card-body">
@@ -81,12 +81,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-md-9">
                     {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
                 </div>
             </div>
         </main>
-        <footer class="container">
+        <footer class="container-fluid">
             <span class="text-muted">&copy; {{ "now"|date("Y") }} {{ site.title }}</span>
         </footer>
 
