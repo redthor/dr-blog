@@ -59,9 +59,6 @@
         </header>
         <main role="main" class="container">
             <div class="row">
-                <div class="col-sm-8">
-                    {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
-                </div>
                 <div class="col-sm-4 sidebar">
                     <div class="card bg-light">
                         <div class="card-header">{{ site.title }}</div>
@@ -78,6 +75,9 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+                <div class="col-sm-8">
+                    {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
                 </div>
             </div>
         </main>
